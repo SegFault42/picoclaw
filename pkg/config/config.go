@@ -221,7 +221,7 @@ func DefaultConfig() *Config {
 				Workspace:           "~/.picoclaw/workspace",
 				RestrictToWorkspace: true,
 				Provider:            "",
-				Model:               "glm-4.7",
+				Model:               "deepseek/deepseek-chat",
 				MaxTokens:           8192,
 				Temperature:         0.7,
 				MaxToolIterations:   20,
